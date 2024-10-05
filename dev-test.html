@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    </style>
+</head>
+
+<body>
+    <script>
+        window.zeoseven_Superload_CssObj = {
+            cssGroups: [
+                {
+                    // id 可任意输入，它是唯一标识符，用于控制台输出
+                    id: 'bootstrap',
+                    // Bootstrap 的根变量有一个 --bs-font-sans-serif ，Superload 根据此判断是否使用备用 URL
+                    rootVariable: '--bs-font-sans-serif',
+                    cssUrls: [
+                        // 它们都会被用作备用，不会直接生成 link 标签，除非 --bs-font-sans-serif 不存在
+                        // 它们将在 rootVariable 定义的根变量不存在时被依次使用
+                        'https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.cs',
+                        'https://example.org/npm/bootstrap@5.3.3/dist/css/bootstrap.min.cs'
+                    ],
+                    cssSha: '',
+                    cssHead: 'last'
+                },
+                // 更多 CSS 文件
+                // { ... }
+            ]
+        };
+
+        window.zeoseven_Superload_JsObj = {
+            '1': {
+                jsUrls: [
+                    // 你不需要设置单独的 script 标签，因为第一个 URL 将被直接生成 script 标签
+                    "https://unpkg.com/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.j",
+                    "https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.j",
+                    "https://example.org/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.s",
+                    // ... 你甚至可以设置一百个，它们会被 Superload 从上至下逐个尝试
+                ],
+                jsSha: "sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz",
+                jsDefer: "on",
+                jsType: "text/javascript",
+                jsCors: ''
+            },
+            /* 更多 script 标签
+            '2': { ... },
+            ... */
+        };
+        // 引入 Superload
+        let zeoseven_Superload = document.createElement('script'); zeoseven_Superload.src = "./dev.js"; zeoseven_Superload.defer = true; document.head.appendChild(zeoseven_Superload);
+    </script>
+</body>
+
+</html>
