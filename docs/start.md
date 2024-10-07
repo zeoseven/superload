@@ -25,11 +25,11 @@ let zeoseven_Superload = document.createElement('script');zeoseven_Superload.src
 
 ## 配置
 
-Superload 还支持 CSS 文件的监测和冗余，如果想要了解 Superload 支持的所有属性和如何使用，请查阅 [示例](https://github.com/zeoseven/superload/blob/main/docs/superload/demo/) 。
+Superload 还支持 CSS 文件的监测和冗余，如果想要了解 Superload 支持的所有属性和如何使用，请查阅 [示例](https://github.com/zeoseven/superload/blob/main/docs/demo/) 。
 
 ## 变量和用途
 
-了解 Superload 变量的命名和作用，请查阅 [变量和用途](https://github.com/zeoseven/superload/blob/main/docs/superload/var/) 。
+了解 Superload 变量的命名和作用，请查阅 [变量和用途](https://github.com/zeoseven/superload/blob/main/docs/var/) 。
 
 ## CSS 配置
 
