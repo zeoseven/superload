@@ -1,5 +1,5 @@
 /**
- * Superload v1.0.1 (https://superload.zeoseven.com)
+ * Superload v1.0.1 (https://github.com/zeoseven/superload/)
  * © 2024 ZeoSeven
  * Licensed under MIT (https://github.com/zeoseven/superload/blob/main/LICENSE)
  */
