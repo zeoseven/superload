@@ -10,15 +10,11 @@ Superload 追求完美的冗余性， Superload 主文件并不大，你可以�
 https://static-host.zeoseven.com/superload/main.min.js
 ```
 
-2.26 KB, GZIP(5): 975 Byte
-
 ## 使用 源 版本并跟进更新
 
 ```
 https://static-host.zeoseven.com/superload/main.js
 ```
-
-4.60 KB, GZIP(5): 1.23 KB
 
 ## 使用旧版本
 
