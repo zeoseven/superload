@@ -4,6 +4,8 @@
 
 了解更多信息和查阅文档可直接访问 [docs/](https://github.com/zeoseven/superload/blob/main/docs/start.md)
 
+你还可以查看 ZeoSeven 生产环境的集成案例： [const.js](https://zeoseven.com/q/db/const.js)
+
 ### 使用 min 版本并跟进更新
 
 ```
