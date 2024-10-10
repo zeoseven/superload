@@ -15,7 +15,7 @@ Superload 希望你使用 defer 来延迟执行 superload/main.min.js ，这有�
 ## 特点
 
 ### 冗余性
-Superload 设计专门用于 .js 文件的立即加载的备用加载，以提高在首选资源 URL 出错时提高用户体验。
+Superload 设计专门用于 .js 文件的立即加载的备用加载，以提高在首选资源 URL 出错时的用户体验。
 
 ### 配置
 在 Obj 中输入首选和备用资源 URL 及属性， Superload 会逐个尝试，直到正确加载。
